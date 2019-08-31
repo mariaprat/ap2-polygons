@@ -1,0 +1,22 @@
+#
+error: unrecognized command.
+error: not an even number of coordinates.
+error: undefined polygon.
+warning: some commands have been ignored.
+error: undefined polygon.
+error: undefined polygon.
+error: undefined polygon.
+error: no defined polygons.
+ok
+error: empty polygon, centroid not defined.
+ok
+warning: unable to save some undefined polygon(s).
+error: color components should be in [0,1].
+ok
+warning: unable to draw some undefined polygon(s).
+error: undefined polygon(s).
+warning: some commands have been ignored.
+error: undefined polygon(s).
+error: undefined polygon(s).
+error: wrong type or number of arguments.
+error: undefined polygon(s).

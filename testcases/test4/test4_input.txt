@@ -1,0 +1,22 @@
+# This test case exposes some of the error and warning messages.
+hello
+polygon p1 0 0 9 9 1
+print p1
+area p1 p2
+perimeter p3
+vertices p3
+centroid p3
+list
+polygon p1
+centroid p1
+save example.txt
+save example.txt p2
+setcol p1 9 0.9 -4
+polygon p1 0 0 1 1
+draw example.png p1 p4
+inside p1 p2
+intersection p1 p2 p3 p4
+union p1 p2
+bbox p2
+delete p3
+exit

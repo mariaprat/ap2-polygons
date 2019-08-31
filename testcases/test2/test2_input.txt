@@ -1,0 +1,18 @@
+# This test case exposes an example of the correct efficiency of each command.
+load circle.txt
+setcol circle1 1 0 0
+setcol circle2 0 1 0
+intersection eye circle1 circle2
+setcol eye 0 0 1
+draw eclipse.png circle1 circle2 eye
+delete eye
+union tube circle1 circle2
+area tube
+perimeter tube
+vertices tube
+centroid tube
+setcol tube 0 0 1
+bbox box tube
+draw strange.png circle1 circle2 tube box
+exit
+

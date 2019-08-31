@@ -1,0 +1,35 @@
+#
+#
+ok
+pentagon -6.000 0.000 0.000 4.000 6.000 0.000 4.000 -6.000 -4.000 -6.000
+84.000
+35.071
+5
+0.000 -1.600
+ok
+pentagon triangle
+ok
+ok
+little1 little2 pentagon triangle
+ok
+ok
+ok
+yes
+no
+ok
+triangle -2.000 0.000 2.000 0.000 0.000 -4.000
+ok
+null
+ok
+little1 -5.000 1.000 -4.000 3.000 4.000 3.000 5.000 1.000
+ok
+all -6.000 0.000 -4.000 3.000 0.000 4.000 4.000 3.000 6.000 0.000 4.000 -6.000 -4.000 -6.000
+ok
+box -6.000 -6.000 -6.000 4.000 6.000 4.000 6.000 -6.000
+ok
+all box little1 little2 null triangle
+ok
+ok
+ok
+ok
+

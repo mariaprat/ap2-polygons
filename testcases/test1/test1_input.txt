@@ -1,0 +1,35 @@
+# This test case exposes an example of the correct functioning of each command.
+# This is also a comment.
+polygon pentagon 0 4 1 0 6 0 2 -2 4 -6 0 -4 0 4 -1 -0 -6 0 -2 -2 -4 -6
+print pentagon
+area pentagon
+perimeter pentagon
+vertices pentagon
+centroid pentagon
+polygon triangle -2 0 2 0 0 0 0 -4
+list
+save t1_polygons.txt pentagon triangle
+load t1_morepolygons.txt
+list
+setcol pentagon 1 1 0
+setcol triangle 0.1 0.5 0.8
+draw figure1.png pentagon triangle little1 little2
+inside triangle pentagon
+inside pentagon triangle
+intersection triangle pentagon
+print triangle
+intersection null little1 little2
+print null
+union little1 little2
+print little1
+union all pentagon little1
+print all
+bbox box pentagon triangle little1 little2
+print box
+delete pentagon
+list
+setcol all 0 0.8 0.8
+setcol triangle 0.8 0.3 0
+setcol little1 0.48 0 0
+draw figure2.png all box little1 null triangle
+exit
